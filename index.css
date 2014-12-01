@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", "Helvetica", "sans-serif";
+  font-size: 52px;
+}
+
+div.links {
+  display: inline-block;
+}
+
+div.links img:hover {
+  opacity: 1.0;
+}
+
+div.links img {
+  opacity: 0.7;
+  margin: 0 12px 0 0;
+  height: 30px;
+  width: auto;
+}
+
+div.logo {
+  display: inline-block;
+}
+
+span.bold {
+  font-weight: bold;
+}
+
+div.container {
+  top: 100px;
+  position: relative;
+  width: 100%;
+}
+
+div.right {
+  position: absolute;
+  right: 0px;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "website",
+  "description": "noansknv website",
+  "version": "0.0.1",
+  "homepage": "http://noansknv.io/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/noansknv/website.git"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "derby": "0.6.0-alpha28",
+    "derby-starter": "^0.2.3",
+    "derby-stylus": "~0.1.0",
+    "express": "~3.18.0"
+  },
+  "optionalDependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": "0.10.x"
+  }
+}
