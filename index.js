@@ -23,9 +23,21 @@ app.get('/', function(page, model) {
     img: '/img/twitter.png',
     alt: 'twitter/noansknv'
   }, {
+    href: 'https://noansknv.exposure.co/',
+    img: '/img/exposure.png',
+    alt: 'exposure/noansknv'
+  }, {
     href: 'http://portfolio.noansknv.io',
     img: '/img/shutter.png',
     alt: 'portfolio'
+  }, {
+    href: 'https://www.flickr.com/photos/129514387@N07/',
+    img: '/img/flickr.png',
+    alt: 'flickr/noansknv'
+  }, {
+    href: 'https://www.instagram.com/beyondcomfort',
+    img: '/img/instagram.png',
+    alt: 'instagram/beyondcomfort'
   }, {
     href: 'https://medium.com/@noansknv',
     img: '/img/medium.png',
