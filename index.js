@@ -22,11 +22,11 @@ app.get('/', function(page, model) {
     href: 'http://www.twitter.com/noansknv',
     img: '/img/twitter.png',
     alt: 'twitter/noansknv'
-  }, {
+  }, /*{
     href: 'https://noansknv.exposure.co/',
     img: '/img/exposure.png',
     alt: 'exposure/noansknv'
-  }, {
+  }, */{
     href: 'http://portfolio.noansknv.io',
     img: '/img/shutter.png',
     alt: 'portfolio'
@@ -38,11 +38,11 @@ app.get('/', function(page, model) {
     href: 'https://www.instagram.com/beyondcomfort',
     img: '/img/instagram.png',
     alt: 'instagram/beyondcomfort'
-  }, {
+  }, /*{
     href: 'https://medium.com/@noansknv',
     img: '/img/medium.png',
     alt: 'medium/@noansknv'
-  }]);
+  }*/]);
 
   page.render();
 });
