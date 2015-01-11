@@ -11,6 +11,10 @@ app.get('/', function(page, model) {
   model.set('_page.title', 'noansknv');
 
   model.set('_page.links', [{
+    href: 'http://www.beyondcomfort.zone',
+    img: '/img/go-o.png',
+    alt: 'beyondcomfort.zone'
+  }, {
     href: 'http://www.github.com/noansknv',
     img: '/img/github.png',
     alt: 'github/noansknv'
